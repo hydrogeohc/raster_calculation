@@ -1,6 +1,4 @@
 
-get_ipython().magic(u'matplotlib inline')
-
 from osgeo import gdal
 import rasterio
 from matplotlib import pyplot
