@@ -1,4 +1,3 @@
-get_ipython().magic(u'matplotlib inline')
 
 from osgeo import gdal
 import rasterio
@@ -63,7 +62,7 @@ band = None
 new_dataset = None
 
 
-get_ipython().system(u'/opt/anaconda/envs/rasterenv/bin/gdalinfo ndvi.tif')
+
 
 
 
